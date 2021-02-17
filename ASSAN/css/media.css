@@ -1,0 +1,105 @@
+/* *****************************Start Media Query*************************** */
+
+
+@media (max-width: 400px) {
+    .dishes .slider-content .slider-img , .dishes .slider-content .slider-bottom { width: 70%; margin: auto }
+    
+    .loading-overlay h1 { font-size: 25px }
+}
+
+@media (max-width: 549px) {
+
+    #home .home-content h3 { font-size: 24px }
+    
+    #home .home-content .flexslider .slides li { font-size: 33px }
+    
+    .about h1 { font-size: 26px }
+    
+    .about p { margin-left: 15px;margin-right: 15px }
+    
+    .say h1 { font-size: 32px } 
+    
+    .say .carousel .item p { font-size: 15px }
+    
+    .menu h1 { font-size: 33px }
+    
+    .menu .first-parag, .menu .second-parag { font-size: 15px;margin-left: 15px;margin-right: 15px }
+    
+    .hours .hours-heading { font-size: 33px }
+    
+    .hours .hours-parag { font-size-adjust: 26px }
+    
+    .hours .hour-content  .hour-content-heading { font-size: 33px }
+    
+    .hours .hour-content  .hour-content-parag  { font-size: 23px }
+    
+    .Foods h1  { font-size: 50px }
+    
+    .events .events-heading  { font-size: 30px }
+
+    .Gallery .Gallery-heading { font-size: 30px }
+    
+    .Gallery .Gallery-parag {  font-size: 16px }
+    
+    .events .events-img { height: 244px }
+    
+    .events .events-contain { width: 85%; margin-left: 27px; }
+    
+    .dishes .slider-content .slider-img , .dishes .slider-content .slider-bottom { width: 70%; margin: auto }
+    
+    .loading-overlay h1 { font-size: 25px }
+
+    
+}
+
+/* *************************************************************** */ 
+
+
+/* Small devices (landscape phones, 576px and up)  */
+@media (max-width: 767px) {
+
+    .sk-folding-cube { width: 50px;height: 50px }
+    
+}
+
+
+
+
+/*  Medium devices (tablets, 768px and up)  */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .Gallery  #lightgallery .content {
+        position: relative;
+        height: 270px
+    }
+    .Gallery  #lightgallery .content img {
+        height: 100%
+    }
+    
+    .loading-overlay h1 { font-size: 30px}
+
+    
+}
+
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    
+}
+
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+   
+    
+}
+
+
+
+/* *****************************End Media Query***************************** */
+
+
+ 
